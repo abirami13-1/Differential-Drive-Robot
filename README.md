@@ -85,6 +85,23 @@ Obstacle avoidance simulation supports:
 
 ---
 
-## Repository Structure (suggested)
-Your repo may vary, but a clean structure is:
+
+---
+
+## How to Run
+
+### Option 1: Python scripts
+1. Create and activate a virtual environment (recommended)
+2. Install dependencies:
+```bash
+pip install -r requirements.txt
+
+
+Run the desired Module
+python src/kinematics.py
+python src/dynamics.py
+python src/smc_controller.py
+python src/adaptive_controller.py
+python src/astar_planner.py
+
 
